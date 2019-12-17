@@ -150,9 +150,27 @@ header .navbar ul li a.active::before{
     background-color: #ffffff;
     color: #000000;
 }
+.home .home-content .block .gh-btn{
+    padding-top:20px;
 
-
-
+}
+.home .home-content .block .gh-btn a{
+    border-radius:4px;
+    color:#ffffff;
+    border:1px solid #ffffff;
+    padding:12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: transparent ;
+}
+.home .home-content .block .gh-btn a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
 /*About me*/
 .about-me{
  padding:100px 15px;
@@ -226,14 +244,15 @@ header .navbar ul li a.active::before{
     font-size: 14px;
     font-weight: 400;
     margin:0 0 5px;
-    color: #000000;
+    color: #838383;
+    padding: 5px;
 }
 .about-me .about-content .text h6 span{
     color:#febd01;
 }
 .about-me .about-content .text p{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 1000;
     line-height: 24px;
-    color:#838383
+    color:#000000
 }
